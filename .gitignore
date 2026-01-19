@@ -210,4 +210,8 @@ __marimo__/
 # macOS
 .DS_Store
 **/.DS_Store
-.venv/
+*.venv/
+echo ".venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.db" >> .gitignore
+echo ".DS_Store" >> .gitignore
